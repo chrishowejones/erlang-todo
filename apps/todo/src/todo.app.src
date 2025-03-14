@@ -1,0 +1,20 @@
+{application, todo, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {todo_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        nine,
+        nine_cowboy,
+        strata,
+        strata_sqlite3,
+        esqlite,
+        keep
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
